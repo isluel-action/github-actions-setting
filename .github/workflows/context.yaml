@@ -1,0 +1,9 @@
+name: conetxt
+on: workflow_dispatch
+
+jobs:
+  context:
+    run-on: ubuntu-latest
+    steps:
+    - name: github context
+      run: echo '${{ toJSON(github) }}'
