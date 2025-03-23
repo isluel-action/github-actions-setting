@@ -1,7 +1,7 @@
 name: pull-request-workflow
 on: 
-pull_request:
-  TPYES: [opened]
+  pull_request:
+    types: [opened]
 
 jobs:
   pull-request-job:
